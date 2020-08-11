@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Add in Emporeum Traders ============= -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+    <value>
+      <li>Caravan_Emporeum</li>
+    </value>
+  </Operation>
+  <!-- Add in mod based items -->
+  <!-- Social Supplements -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Social Supplements</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/TraderKindDef[defName="Caravan_Emporeum"]/stockGenerators</xpath>
+      <value>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSPolyPetals</thingDef>
+          <countRange>
+            <min>200</min>
+            <max>750</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSScenterNeutral</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>150</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSPolyflowerJuice</thingDef>
+          <countRange>
+            <min>5</min>
+            <max>25</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSMorel</thingDef>
+          <countRange>
+            <min>-50</min>
+            <max>150</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSMushSoup</thingDef>
+          <countRange>
+            <min>10</min>
+            <max>20</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSMintLeaves</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>500</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSMint_Tea</thingDef>
+          <countRange>
+            <min>20</min>
+            <max>50</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSMintChocolate</thingDef>
+          <countRange>
+            <min>5</min>
+            <max>20</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSBlitz_Zest</thingDef>
+          <countRange>
+            <min>5</min>
+            <max>50</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSBlitz_Ice</thingDef>
+          <countRange>
+            <min>5</min>
+            <max>50</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSVape_Regular</thingDef>
+          <countRange>
+            <min>5</min>
+            <max>25</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSVape_Fruity</thingDef>
+          <countRange>
+            <min>5</min>
+            <max>25</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSVape_Menthol</thingDef>
+          <countRange>
+            <min>5</min>
+            <max>25</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSAnimalTreats</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>200</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSGlucose</thingDef>
+          <countRange>
+            <min>25</min>
+            <max>75</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSMilkPowder</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>300</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSPowerBar</thingDef>
+          <countRange>
+            <min>0</min>
+            <max>10</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>SSGPSBeaconFood</thingDef>
+          <countRange>
+            <min>-1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+      </value>
+    </match>
+  </Operation>
+  <!-- Medical Supplements -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medical Supplements</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/TraderKindDef[defName="Caravan_Emporeum"]/stockGenerators</xpath>
+      <value>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>MSWipes</thingDef>
+          <countRange>
+            <min>20</min>
+            <max>100</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>MSCondom</thingDef>
+          <countRange>
+            <min>25</min>
+            <max>150</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>MSTravelPill</thingDef>
+          <countRange>
+            <min>-5</min>
+            <max>15</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>MSGPSBeaconMeds</thingDef>
+          <countRange>
+            <min>-1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+      </value>
+    </match>
+  </Operation>
+  <!-- Apothecary -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Apothecary</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/TraderKindDef[defName="Caravan_Emporeum"]/stockGenerators</xpath>
+      <value>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>AYLavenderSoap</thingDef>
+          <countRange>
+            <min>10</min>
+            <max>50</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>AYTreatedMedHerb</thingDef>
+          <countRange>
+            <min>-5</min>
+            <max>20</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>AYAbsinthe</thingDef>
+          <countRange>
+            <min>0</min>
+            <max>25</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_Category">
+          <categoryDef>AYPlantMatter</categoryDef>
+          <thingDefCountRange>
+            <min>2</min>
+            <max>5</max>
+          </thingDefCountRange>
+          <totalPriceRange>
+            <min>300</min>
+            <max>800</max>
+          </totalPriceRange>
+        </li>
+        <li Class="StockGenerator_Category">
+          <categoryDef>AYPlasterArt</categoryDef>
+          <thingDefCountRange>
+            <min>0</min>
+            <max>1</max>
+          </thingDefCountRange>
+          <totalPriceRange>
+            <min>200</min>
+            <max>500</max>
+          </totalPriceRange>
+        </li>
+      </value>
+    </match>
+  </Operation>
+  <!--  Fermenter -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fermenter</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/TraderKindDef[defName="Caravan_Emporeum"]/stockGenerators</xpath>
+      <value>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>FRMT_Butter</thingDef>
+          <countRange>
+            <min>20</min>
+            <max>120</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>FRMT_CheeseMozzarella</thingDef>
+          <countRange>
+            <min>25</min>
+            <max>100</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>FRMT_NaturalYoghurt</thingDef>
+          <countRange>
+            <min>0</min>
+            <max>25</max>
+          </countRange>
+        </li>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>FRMT_FruitYoghurt</thingDef>
+          <countRange>
+            <min>0</min>
+            <max>20</max>
+          </countRange>
+        </li>
+      </value>
+    </match>
+  </Operation>
+  <!-- Hair Dye by Automatic -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Hair Dye</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/TraderKindDef[defName="Caravan_Emporeum"]/stockGenerators</xpath>
+      <value>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>HairDyeBox</thingDef>
+          <countRange>
+            <min>5</min>
+            <max>25</max>
+          </countRange>
+        </li>
+      </value>
+    </match>
+  </Operation>
+</Patch>
