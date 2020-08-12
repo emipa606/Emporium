@@ -10,7 +10,6 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter>
-    <li>Mlie.Emporium</li>
     <li>Mlie.Fermenter</li>
     <li>Mlie.SocialSupplements</li>
     <li>Mlie.MedicalSupplements</li>
