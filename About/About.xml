@@ -9,13 +9,7 @@
     <li>1.2</li>
   </supportedVersions>
   <modDependencies />
-  <loadAfter>
-    <li>Mlie.Fermenter</li>
-    <li>Mlie.SocialSupplements</li>
-    <li>Mlie.MedicalSupplements</li>
-    <li>Mlie.Apothecary</li>
-    <li>automatic.hairdye</li>
-  </loadAfter>
+  <loadAfter />
   <description>Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2008986676
 
