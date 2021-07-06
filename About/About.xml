@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Emporium (Continued)</name>
   <packageId>Mlie.Emporium</packageId>
@@ -7,54 +7,71 @@
   <supportedVersions>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>Update of peladors mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2008986676
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/Emporium
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/Emporium][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-Overview
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
+[h1]Overview[/h1] V1.1
 
 Introduces an Outlander trader for various "luxury" and "comfort" items.
 
-Details
+[h1]Details[/h1]
 
 Will add this trader to all potential Outlander factions including those introduced by mods if they are using the same base definitions for the vanilla factions.
 
 So if you want to be able to live in the lap of luxury or pamper any royal dignitaries or ambassadors as your guests, then the services of these traders might prove useful, assuming you can afford them.
 
-Compatibility
-*** Subject to conversion ***
+[h1]Compatibility[/h1] *** Subject to conversion ***
 
 Some categories the trader uses for stock generation will naturally include elements from vanilla and other mods.
 
 Intentionally adds items as stock from the following mods if you are using them:
 
-Apothecary
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851]Apothecary[/url]
 Hair Dye
-Medical Supplements
-Social Supplements
-Fermenter
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2004944243]Medical Supplements[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2005917068]Social Supplements[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2001398514]Fermenter[/url]
 
-I'd be happy to accommodate other mods items, but this would be best done with the discretion of the original author to ensure that any mod balance considerations are included.
+I'd be happy to accommodate other mods items, but this would be best done with the discretion of the original author to ensure that any mod balance considerations are included. 
 
-Mod notes
+[h1]Mod notes[/h1]
 
 Save compatible.
 
 Removal from save games, I would expect innocuous error messages on subsequent plays that I'd expect to subside. Would suggest doing this when these traders are not on your map or if you have requested one.
 
-Credits
+[h1]Credits[/h1]
 
 Brainchild of "pgames-food".
+
+(CC BY-NC-SA 4.0)
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
 </description>
 </ModMetaData>
+
