@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- =============================== Trader ===================================== -->
+  <TraderKindDef>
+    <defName>Caravan_Emporeum</defName>
+    <label>Emporium Luxury Goods Trader</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>2000</min>
+          <max>5000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>
+          <min>20</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>
+          <min>-20</min>
+          <max>150</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>15</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineIndustrial</thingDef>
+        <countRange>
+          <min>3</min>
+          <max>5</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>InsectJelly</thingDef>
+        <countRange>
+          <min>-10</min>
+          <max>30</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Apparel_CowboyHat</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>3</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Apparel_BowlerHat</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>4</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Apparel_PsychicFoilHelmet</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>Clothing</tradeTag>
+        <countRange>
+          <min>3</min>
+          <max>7</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>DevilstrandCloth</thingDef>
+        <countRange>
+          <min>20</min>
+          <max>250</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Synthread</thingDef>
+        <countRange>
+          <min>10</min>
+          <max>200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Hyperweave</thingDef>
+        <countRange>
+          <min>-20</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>RawBerries</thingDef>
+        <countRange>
+          <min>-20</min>
+          <max>300</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>RawAgave</thingDef>
+        <countRange>
+          <min>-20</min>
+          <max>300</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>RawFungus</thingDef>
+        <countRange>
+          <min>-20</min>
+          <max>300</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PsychoidLeaves</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>150</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>SmokeleafLeaves</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>150</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Beer</thingDef>
+        <totalPriceRange>
+          <min>0</min>
+          <max>200</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chocolate</thingDef>
+        <totalPriceRange>
+          <min>30</min>
+          <max>150</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>10</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>700</min>
+          <max>1500</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodMeals</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>500</min>
+          <max>750</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>AnimalPet</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>
+          <min>1</min>
+          <max>2</max>
+        </kindCountRange>
+        <countRange>
+          <min>2</min>
+          <max>5</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>Art</tradeTag>
+        <countRange>
+          <min>1</min>
+          <max>2</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>GameOfUrBoard</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>TubeTelevision</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>FlatscreenTelevision</thingDef>
+        <countRange>
+          <min>-1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>Art</tag>
+      </li>
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Gold</thingDef>
+      </li>
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Jade</thingDef>
+      </li>
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>Chocolate</li>
+          <li>Beer</li>
+        </thingDefs>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+</Defs>
