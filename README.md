@@ -1,4 +1,4 @@
-# Emporium
+# [Emporium (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2194481462)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -6,10 +6,8 @@ Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2008986676
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 # Overview
  V1.1
@@ -30,11 +28,11 @@ Some categories the trader uses for stock generation will naturally include elem
 
 Intentionally adds items as stock from the following mods if you are using them:
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851]Apothecary
+[Apothecary](https://steamcommunity.com/sharedfiles/filedetails/?id=2000244851)
 Hair Dye
-https://steamcommunity.com/sharedfiles/filedetails/?id=2004944243]Medical Supplements
-https://steamcommunity.com/sharedfiles/filedetails/?id=2005917068]Social Supplements
-https://steamcommunity.com/sharedfiles/filedetails/?id=2001398514]Fermenter
+[Medical Supplements](https://steamcommunity.com/sharedfiles/filedetails/?id=2004944243)
+[Social Supplements](https://steamcommunity.com/sharedfiles/filedetails/?id=2005917068)
+[Fermenter](https://steamcommunity.com/sharedfiles/filedetails/?id=2001398514)
 
 I'd be happy to accommodate other mods items, but this would be best done with the discretion of the original author to ensure that any mod balance considerations are included. 
 
@@ -59,13 +57,12 @@ Brainchild of "pgames-food".
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2194481462]![Image](https://img.shields.io/github/v/release/emipa606/Emporium?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/Emporium?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2194481462) | tags:  luxury,  comfort
